@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.but{
+    position: absolute;
+    margin-top: 30px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+.but a{
+  z-index: 100;
+  margin: 0px 5px;
+  width: 150px;
+  height: 30px;
+  background-image: 
+    linear-gradient(30deg,rgba(92, 243, 235, 0.936),rgb(247, 238, 247));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
+}
+.but a:hover{
+    width: 160px;
+    height: 40px;
+    background-image: none;
+    color: aliceblue;
+    background-color: rgba(48, 48, 238, 0.926);
+    box-shadow: 0 0 20px 20px rgba(87, 87, 203, 0.73);
+}
